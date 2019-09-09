@@ -9,6 +9,7 @@ class PrizeController extends Controller
     {
         $data = [];
         return view('prize.index',$data);
+        echo 11;
     }
     public function prizeDo()
     {
